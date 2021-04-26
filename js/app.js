@@ -53,6 +53,7 @@ function myFunction (){
           break;
        }
 
+
      let question3 = prompt('Now as you know a little bit more about me , could you tell if i am ok with changes or not ?(yes/no)').toLowerCase();  
      switch(question3){
         case 'yes': 
@@ -68,7 +69,25 @@ function myFunction (){
           break;
        }
 
+    let question4 = prompt('Would you like to have an idea about my main goal?(YES/No)').toUpperCase;
+    switch(question4){
+        case 'YES': 
+  
+        alert ("Your answer is YES");
+        console.log ('the answer is YES');
+        document.write ('my main goal is to live my life without any regrets and to always do my best in everything'
+        "/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
+        break;
+  
+        case 'NO':
+  
+          alert ("Your answer is NO");
+          console.log ('the answer is NO');
+          break;
+       }
+
     
+
 
   
 

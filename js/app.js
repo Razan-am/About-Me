@@ -33,8 +33,45 @@ function myFunction (){
         console.log('this is not the right answer');
         break;
 
+      } 
+
+
+    let question2 = prompt('Would you like to have an overview of your job experience?(yes/no)').toLowerCase();
+    switch(question2){
+        case 'yes': 
+  
+        alert ("Your answer is yes");
+        console.log ('the answer is yes');
+        document.write ('So i have many different job experiences in different fields,i have worked in the sales/marketing/promotion,also as a event/parties planner, and i have worked as adesigner espacially as a graphic designer.'
+        "/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
+        break;
+  
+        case 'NO':
+  
+          alert ("Your answer is NO");
+          console.log ('the answer is NO');
+          break;
+       }
+
+     let question3 = prompt('Now as you know a little bit more about me , could you tell if i am ok with changes or not ?(yes/no)').toLowerCase();  
+     switch(question3){
+        case 'yes': 
+  
+        alert ("Your answer is yes, and it is a correct answer ");
+        console.log ('the answer is yes, and it is a correct answer ');
+        break;
+  
+        case 'NO':
+  
+          alert ("Your answer is NO");
+          console.log ('the answer is NO');
+          break;
+       }
 
     
+
+  
+
 
 
 

@@ -18,8 +18,7 @@ function myFunction (){
 
       alert ("Your answer is YES");
       console.log ('the answer is YES');
-      document.write ('Well thanks for your interesting, i was majoring in the college in the architecture field. And now im building my self to become a software developer.'
-      "/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
+      document.write ('Well thanks for your interesting, i was majoring in the college in the architecture field. And now im building my self to become a software developer.'+'/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////');
       break;
 
       case 'NO':
@@ -36,14 +35,14 @@ function myFunction (){
       } 
 
 
-    let question2 = prompt('Would you like to have an overview of your job experience?(yes/no)').toLowerCase();
+    let question2 = prompt('Would you like to have an overview of my job experience?(yes/no)').toLowerCase();
     switch(question2){
         case 'yes': 
   
         alert ("Your answer is yes");
         console.log ('the answer is yes');
         document.write ('So i have many different job experiences in different fields,i have worked in the sales/marketing/promotion,also as a event/parties planner, and i have worked as adesigner espacially as a graphic designer.'
-        "/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
+        +'/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////');
         break;
   
         case 'NO':
@@ -75,7 +74,7 @@ function myFunction (){
   
         alert ("Your answer is YES");
         console.log ('the answer is YES');
-        document.write ('my main goal is to live my life without any regrets and to always do my best in everything'
+        document.write ('my main goal is to live my life without any regrets and to always do my best in everything'+
         "/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
         break;
   
@@ -86,7 +85,29 @@ function myFunction (){
           break;
        }
 
-    
+    let question5 = prompt ('Do you have a similar goals as mine?(yes/no)').toLowerCase;
+    switch(question4){
+        case 'yes': 
+  
+        alert ("Your answer is yes");
+        console.log ('the answer is yes');
+        document.write ('that is amazing to know'+
+        "/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
+        break;
+  
+        case 'NO':
+  
+          alert ("Your answer is NO");
+          console.log ('the answer is NO');
+          document.write ('that is good to know'+
+        "/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
+          break;
+       }
+
+       let result = confirm('Thank you for answering to these questions,hope you will enjoy exploring my web page,and  wish you to have a great day');
+    }
+
+
 
 
   
@@ -94,7 +115,7 @@ function myFunction (){
 
 
 
-  }
+
 
 
 

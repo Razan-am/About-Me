@@ -209,6 +209,8 @@ ol {
 
 }
 
+
+
 #copyrights{
     font-size: 18px;
     margin-top: 20px;
@@ -217,7 +219,7 @@ ol {
     float: left;
     font-family: cursive;
     margin-right: 10px;
-    border: 2px brown dashed;
+    border: 2px brown solid;
     border-radius: 5px;
     padding: 5px;
     

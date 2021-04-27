@@ -138,17 +138,23 @@ function greeting() {
     } else if (question6 > age); {
       alert('Your answer is too high');
     }
+
+    let score1 = 0;
+    if (question6 === age); {
+      score1++
+      console.log(score1);
+    }
   }
 
-  alert ('I am 24 years old');
-  
+  alert('I am 24 years old');
 
 
-  let counrtyName = ['canada', 'singapore', 'germany'].toLowerCase;
+
+  let counrtyName = ['canada', 'singapore', 'germany'];
 
   for (let attempt = 1; attempt <= 6; attempt++) {
 
-    let question7 = prompt('Can you guess which countries i am planning to visit?');
+    let question7 = prompt('Can you guess which countries i am planning to visit?').toLowerCase();
     let correct = false;
 
     for (let j = 0; j < counrtyName.length; j++) {
@@ -160,9 +166,27 @@ function greeting() {
         break;
       }
     }
-  }
-  if (correct === false) {
-    alert('Sorry, you have not guess right')
+    if (correct === false) {
+      alert('Sorry, you have not guess right')
+    }
+
+    let score2 = 0;
+    if (question7 === counrtyName); {
+      score2++
+      console.log(score2);
+    }
+
   }
   let result = confirm('Thank you for answering to these questions,hope you will enjoy exploring my web page,and  wish you to have a great day');
+
+
+
+
+  function sum(finalResult) {
+    let result = sum + (score1 + score2);
+    console.log(result);
+    return result;
+  }
+
+  alert('Your final result is' + sum);
 }

@@ -147,7 +147,7 @@ ol {
 
 #splitLine{
 
-    margin-left: 600px;
+    margin-left: 550px;
     height: 600px;
     margin-top:-1000px;
     width: 40px;
@@ -155,35 +155,71 @@ ol {
 
 #educationHistory{
     font-size:18px;
-    color: brown;
+    color: whitesmoke;
     margin-top: -400px;
-    margin-left: 755px;   
+    margin-left: 630px;   
     font-style:inherit;
+    background-color:rgb(16, 107, 92) ;
+    width: 350px;
+    padding: 3px;
+    
+    
+    
+}
+
+.educationalDetails{
+    font-size:14px;
+    color: whitesmoke;
+    margin-top: 4px;
+    margin-left: 630px;   
+    font-style:inherit;
+    background-color: brown;
+    width: 310px;
+    padding: 15px;
+    height: 50px;
+    border: dotted 3px rgb(16, 107, 92);
     
 }
 
 #workExp{
     font-size:18px;
-    color: brown;
-    margin-top: -250px;
-    margin-left: 1100px;   
+    color: whitesmoke;
+    margin-top: -200px;
+    margin-left: 1000px;   
     font-style:inherit;
     z-index: 5px;
-    margin-bottom: 50px;
+    background-color: rgb(16, 107, 92);
+    padding: 5px;
+    margin-bottom: 15px;
+    border: dotted brown 4px;
+    border-radius: 30px;
 }
 
+.workDetails{
+    font-size: 15px;
+    color: whitesmoke;
+    margin-left: 1000px;
+    font-style:inherit;
+    background-color: rgb(16, 107, 92);
+    padding: 10px;
+    border: dotted brown 2px;
+    border-radius: 30px;
+    
+    
 
+}
 
 #copyrights{
     font-size: 18px;
-    margin-top: 200px;
+    margin-top: 20px;
     z-index: 5px;
     color: #000;
-    float: right;
+    float: left;
     font-family: cursive;
     margin-right: 10px;
     border: 2px brown dashed;
     border-radius: 5px;
     padding: 5px;
+    
     
 }

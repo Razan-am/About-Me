@@ -19,6 +19,7 @@ function greeting() {
   container.appendChild(data)
   data.textContent = 'Hello' + " " + userName + ',' + "welcome to my webpage,let's make you know me better.";
 
+  let score = 0;
 
   let question1 = prompt('Would you like to have a brief about my educational history?(YES/NO)(Y/N)').toUpperCase();
 
@@ -31,6 +32,7 @@ function greeting() {
       let data = document.createElement('p');
       container.appendChild(data)
       data.textContent = "Well thanks for your interesting, i was majoring in the college in the architecture field. And now im building my self to become a software developer.";
+      score ++;
       break;
 
     case 'NO' || 'N':
@@ -57,6 +59,7 @@ function greeting() {
       let data = document.createElement('p');
       container.appendChild(data)
       data.textContent = "So i have many different job experiences in different fields,i have worked in the sales/marketing/promotion,also as a event/parties planner, and i have worked as adesigner espacially as a graphic designer.";
+      score ++;
       break;
 
     case 'no' || 'n':
@@ -74,6 +77,7 @@ function greeting() {
 
       alert("Your answer is yes, and it is a correct answer ");
       console.log('the answer is yes, and it is a correct answer ');
+      score ++;
       break;
 
     case 'no' || 'n':
@@ -95,6 +99,7 @@ function greeting() {
       let data = document.createElement('p');
       container.appendChild(data)
       data.textContent = "my main goal is to live my life without any regrets and to always do my best in everything";
+      score ++;
       break;
 
     case 'NO' || 'N':
@@ -113,6 +118,7 @@ function greeting() {
       console.log('the answer is yes');
       container.appendChild(data)
       data.textContent = "that is amazing to know";
+      score ++;
       break;
 
     case 'no' || 'n':
@@ -131,18 +137,13 @@ function greeting() {
     if (question6 === age) {
       console.log('That is correct');
       alert('That is correct');
+      score ++;
       break;
     } else if (question6 < age) {
       alert('Your answer is too low');
 
     } else if (question6 > age); {
       alert('Your answer is too high');
-    }
-
-    let score1 = 0;
-    if (question6 === age); {
-      score1++
-      console.log(score1);
     }
   }
 
@@ -163,30 +164,15 @@ function greeting() {
         console.log('That is correct');
         alert('That is correct')
         correct = true;
+        score ++;
         break;
       }
     }
     if (correct === false) {
       alert('Sorry, you have not guess right')
     }
-
-    let score2 = 0;
-    if (question7 === counrtyName); {
-      score2++
-      console.log(score2);
-    }
-
   }
   let result = confirm('Thank you for answering to these questions,hope you will enjoy exploring my web page,and  wish you to have a great day');
 
-
-
-
-  function sum(finalResult) {
-    let result = sum + (score1 + score2);
-    console.log(result);
-    return result;
-  }
-
-  alert('Your final result is' + sum);
+  alert('Your final result is '+score);
 }

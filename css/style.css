@@ -86,18 +86,64 @@ h1{
     height: 400px;
     float: right;
     margin-top: -220px;
+    ;
 }
 
 #button{
     margin-top: 50px;
-    margin-left: -50px;
-    width: 300px;
+    margin-left: -80px;
+    width: 200px;
     height: 40px;
     background-color: brown;
     font-size: 25px;
     font-family: cursive;
     color: whitesmoke;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
 }
+
+
+
+
+
+#split{
+    border: solid rgb(16, 107, 92) 20px;
+    width: 1000px;
+    margin-top: 92px;
+    z-index: 50px;
+    opacity: .5;
+}
+
+
+#intrest{
+
+    font-size:18px;
+    color: brown;
+    margin-top: 10px;
+    margin-left: 15px;   
+    font-style:inherit;
+   
+}
+
+ol {
+    margin-left: 50px;
+    list-style-type:decimal;
+    list-style-position: inside;
+    margin-top: 20px;
+    font-family: cursive;
+    background-color: rgb(16, 107, 92) ;
+    display: inline-block;
+    width:300px;
+    height: 300px;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: floralwhite;
+    border: 5px dotted  brown;
+    border-radius: 60px;
+}
+
 
 #copyrights{
     font-size: 18px;
@@ -106,7 +152,7 @@ h1{
     color: #000;
     float: right;
     font-family: cursive;
-    margin-right: -280px;
+    margin-right: 10px;
     border: 2px brown dashed;
     border-radius: 5px;
     padding: 5px;

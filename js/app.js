@@ -28,7 +28,6 @@ function greeting() {
 
       alert("Your answer is YES");
       console.log('the answer is YES');
-      // document.write('<p>Well thanks for your interesting, i was majoring in the college in the architecture field. And now im building my self to become a software developer.</p><br>');
       let data = document.createElement('p');
       container.appendChild(data)
       data.textContent = "Well thanks for your interesting, i was majoring in the college in the architecture field. And now im building my self to become a software developer.";
@@ -142,7 +141,7 @@ function greeting() {
     } else if (question6 < age) {
       alert('Your answer is too low');
 
-    } else if (question6 > age); {
+    } else if (question6 > age) {
       alert('Your answer is too high');
     }
   }

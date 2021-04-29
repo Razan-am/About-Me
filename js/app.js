@@ -13,8 +13,6 @@ function greeting() {
 
   let userName = prompt('please enter yout name');
 
-  console.log(userName);
-
   let data = document.createElement('p');
   container.appendChild(data)
   data.textContent = 'Hello' + " " + userName + ',' + "welcome to my webpage,let's make you know me better.";
@@ -40,7 +38,6 @@ function q1() {
     case 'YES' || 'Y':
 
       alert("Your answer is YES");
-      console.log('the answer is YES');
       let data = document.createElement('p');
       container.appendChild(data)
       data.textContent = "Well thanks for your interesting, i was majoring in the college in the architecture field. And now im building my self to become a software developer.";
@@ -50,12 +47,10 @@ function q1() {
     case 'NO' || 'N':
 
       alert("Your answer is NO");
-      console.log('the answer is NO');
       break;
 
     default:
       alert('this is not the right answer');
-      console.log('this is not the right answer');
       break;
   }
 }
@@ -67,7 +62,6 @@ function q2() {
     case 'yes' || 'y':
 
       alert("Your answer is yes");
-      console.log('the answer is yes');
       let data = document.createElement('p');
       container.appendChild(data)
       data.textContent = "So i have many different job experiences in different fields,i have worked in the sales/marketing/promotion,also as a event/parties planner, and i have worked as adesigner espacially as a graphic designer.";
@@ -77,7 +71,6 @@ function q2() {
     case 'no' || 'n':
 
       alert("Your answer is NO");
-      console.log('the answer is NO');
       break;
   }
 
@@ -91,14 +84,12 @@ function q3() {
     case 'yes' || 'y':
 
       alert("Your answer is yes, and it is a correct answer ");
-      console.log('the answer is yes, and it is a correct answer ');
       score++;
       break;
 
     case 'no' || 'n':
 
       alert("Your answer is NO");
-      console.log('the answer is NO');
       break;
   }
 
@@ -111,7 +102,6 @@ function q4() {
     case 'YES' || 'Y':
 
       alert("Your answer is YES");
-      console.log('the answer is YES');
       let data = document.createElement('p');
       container.appendChild(data)
       data.textContent = "my main goal is to live my life without any regrets and to always do my best in everything";
@@ -121,7 +111,6 @@ function q4() {
     case 'NO' || 'N':
 
       alert("Your answer is NO");
-      console.log('the answer is NO');
       break;
   }
 }
@@ -133,7 +122,6 @@ function q5() {
     case 'yes' || 'y':
 
       alert("Your answer is yes");
-      console.log('the answer is yes');
       container.appendChild(data)
       data.textContent = "that is amazing to know";
       score++;
@@ -142,7 +130,6 @@ function q5() {
     case 'no' || 'n':
 
       alert("Your answer is NO");
-      console.log('the answer is NO');
       container.appendChild(data)
       data.textContent = "that is good to know";
       break;
@@ -155,7 +142,6 @@ function q6() {
     let question6 = parseInt(prompt('Can you guess how old i am ?'));
 
     if (question6 === age) {
-      console.log('That is correct');
       alert('That is correct');
       score++;
       break;
@@ -182,7 +168,6 @@ function q7() {
     for (let j = 0; j < counrtyName.length; j++) {
 
       if (question7 === counrtyName[j]) {
-        console.log('That is correct');
         alert('That is correct')
         correct = true;
         score++;

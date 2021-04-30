@@ -7,6 +7,7 @@ let start = document.getElementById("button").onclick = function () { greeting()
 
 let container = document.getElementById('container');
 
+let score = 0;
 function greeting() {
 
   alert('hello');
@@ -17,7 +18,7 @@ function greeting() {
   container.appendChild(data)
   data.textContent = 'Hello' + " " + userName + ',' + "welcome to my webpage,let's make you know me better.";
 
-  let score = 0;
+  
 
   q1();
   q2();
@@ -31,21 +32,21 @@ function greeting() {
 
   alert('Your final result is ' + score);
 }
+
 function q1() {
   let question1 = prompt('Would you like to have a brief about my educational history?(YES/NO)(Y/N)').toUpperCase();
 
   switch (question1) {
-    case 'YES' || 'Y':
 
+    case 'YES' || 'Y':
       alert("Your answer is YES");
       let data = document.createElement('p');
-      container.appendChild(data)
+      container.appendChild(data);
       data.textContent = "Well thanks for your interesting, i was majoring in the college in the architecture field. And now im building my self to become a software developer.";
       score++;
       break;
 
     case 'NO' || 'N':
-
       alert("Your answer is NO");
       break;
 
@@ -60,16 +61,14 @@ function q2() {
 
   switch (question2) {
     case 'yes' || 'y':
-
       alert("Your answer is yes");
       let data = document.createElement('p');
-      container.appendChild(data)
+      container.appendChild(data);
       data.textContent = "So i have many different job experiences in different fields,i have worked in the sales/marketing/promotion,also as a event/parties planner, and i have worked as adesigner espacially as a graphic designer.";
       score++;
       break;
 
     case 'no' || 'n':
-
       alert("Your answer is NO");
       break;
   }
@@ -82,13 +81,11 @@ function q3() {
 
   switch (question3) {
     case 'yes' || 'y':
-
       alert("Your answer is yes, and it is a correct answer ");
       score++;
       break;
 
     case 'no' || 'n':
-
       alert("Your answer is NO");
       break;
   }
@@ -109,7 +106,6 @@ function q4() {
       break;
 
     case 'NO' || 'N':
-
       alert("Your answer is NO");
       break;
   }
@@ -120,7 +116,6 @@ function q5() {
 
   switch (question5) {
     case 'yes' || 'y':
-
       alert("Your answer is yes");
       container.appendChild(data)
       data.textContent = "that is amazing to know";
@@ -128,7 +123,6 @@ function q5() {
       break;
 
     case 'no' || 'n':
-
       alert("Your answer is NO");
       container.appendChild(data)
       data.textContent = "that is good to know";
